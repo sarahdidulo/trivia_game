@@ -17,12 +17,18 @@ header{
     flex-wrap: wrap;
     width: 100%;
     padding: 20px;
+    /* background-color: #00aed9; */
+    background-image: url("https://www.transparenttextures.com/patterns/food.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 header h1{
     width: 100%;
     display: flex;
     justify-content: center;
+    font-size: 45px;
+    color: white;
+    font-weight: bolder;
 }
 
 header .plus-sign{    
