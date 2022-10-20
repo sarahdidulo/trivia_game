@@ -59,8 +59,13 @@ header .team-score{
     gap: 10px;
     padding: 10px 20px;
     position: relative;
+    height: 100vw;
 }
 
+.card-section-wrapper h3{
+    text-align: center;
+    font-size: 30px;
+}
 .card--section{
     flex-grow: 1;
     padding: 20px 10px;

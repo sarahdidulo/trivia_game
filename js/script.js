@@ -13,7 +13,7 @@ $(window).ready(function(){
         ansToo = false;
         closeModal = false;
         showAnswer = false; 
-        time = 2;     
+        time = 60;     
         cardId = $(this).attr("id");
         currentModal = "#"+cardId+"-m";
         if(!$(this).hasClass("cardClicked")){   
